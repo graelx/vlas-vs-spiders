@@ -1,0 +1,46 @@
+////////////////////////////////////////////////////////
+// Fichero generado para automatizar las decoraciones //
+// Copiar y pegar, en las secciones que correspondan  //
+// Map2MK1                                            //
+////////////////////////////////////////////////////////
+
+
+
+///////////////////////
+// Seccion CI        //
+///////////////////////
+
+    // my/ci/extra_vars.h
+
+    const unsigned char decos_0 [] = { 0x00, 184, 0x20, 39, 0x40, 200, 0x60, 39, 0xff };
+
+
+
+    // my/ci/entering_screen.h
+
+    _gp_gen = 0;
+
+    switch (n_pant) {
+        case 0:
+            _gp_gen = decos_0; break;
+    }
+
+    if (_gp_gen) draw_decorations ();
+
+
+
+
+///////////////////////
+// Seccion Scripting //
+///////////////////////
+
+    ENTERING SCREEN 0
+        IF TRUE
+        THEN
+            DECORATIONS
+                0, 0, 184
+                2, 0, 39
+                4, 0, 200
+                6, 0, 39
+        END
+    END

@@ -1,0 +1,4 @@
+title.bin
+marco.bin
+ending.bin
+gameover.bin
